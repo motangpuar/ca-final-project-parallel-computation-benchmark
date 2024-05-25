@@ -1,0 +1,41 @@
+#MPI calls:
+#	MPI_Allgather
+#	MPI_Allreduce
+#Message sizes:
+#	800
+#@operation=MPI_BOR
+#@datatype=MPI_BYTE
+#@datatype_extent_bytes=1
+#@datatype_size_bytes=1
+#@root_proc=0
+#@reproMPIcommitSHA1=cd615430185b38692c0761f2888279724e5012ed
+#@nprocs=32
+#@clock=MPI_Wtime
+#@clock_tick=0.0000000010
+#@clocksync=None
+#@procsync=MPI_Barrier
+#@runtime_type=local
+#@nrep=10
+                                              test       nrep        count    runtime_sec 
+                                     MPI_Allgather          0          800   0.0441153190
+                                     MPI_Allgather          1          800   0.0105119510
+                                     MPI_Allgather          2          800   0.0078474290
+                                     MPI_Allgather          3          800   0.0006996060
+                                     MPI_Allgather          4          800   0.0005031140
+                                     MPI_Allgather          5          800   0.0004859150
+                                     MPI_Allgather          6          800   0.0004931200
+                                     MPI_Allgather          7          800   0.0006421330
+                                     MPI_Allgather          8          800   0.0004671270
+                                     MPI_Allgather          9          800   0.0005937110
+                                     MPI_Allreduce          0          800   0.0004915970
+                                     MPI_Allreduce          1          800   0.0003769370
+                                     MPI_Allreduce          2          800   0.0003001420
+                                     MPI_Allreduce          3          800   0.0002870980
+                                     MPI_Allreduce          4          800   0.0003394440
+                                     MPI_Allreduce          5          800   0.0002925960
+                                     MPI_Allreduce          6          800   0.0003319000
+                                     MPI_Allreduce          7          800   0.0003610930
+                                     MPI_Allreduce          8          800   0.0003197820
+                                     MPI_Allreduce          9          800   0.0003865490
+# Benchmark started at Sat May 25 08:21:51 2024
+# Execution time: 0s
