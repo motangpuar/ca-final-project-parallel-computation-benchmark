@@ -47,7 +47,7 @@ for call in mpi_calls:
     sma_maxs[call] = np.convolve(maxs[call], np.ones(window_size) / window_size, mode='valid')
 
 # Create smooth data points for plotting
-smooth_factor = 100  # Adjust the smooth factor as needed
+smooth_factor = 1000  # Adjust the smooth factor as needed
 processes = range(1, len(files) + 1)
 smooth_processes = np.linspace(1, len(files), len(files) * smooth_factor)
 

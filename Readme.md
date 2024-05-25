@@ -23,3 +23,7 @@
 	```bash
 	mpirun bin/mpibenchmark -np 32 --msizes-list=800 --calls-list=MPI_Allgather --nrep 1
 	```
+
+
+2. Bash script `scripts/runner/sh` will generate the model data
+3. Python script `scripts/plot-multi.py` will generate the extra-p data

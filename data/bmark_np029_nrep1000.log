@@ -1,0 +1,32 @@
+#Command-Line Arguments: /home/nnag/mpi_shared/ca-final-project/reprompi/bin/mpibenchmark --msizes-list=800 --nrep=1000 --calls-list=MPI_Allgather,MPI_Allreduce,MPI_Barrier,MPI_Bcast,MPI_Reduce,MPI_Gather --summary=mean,min,max
+#MPI calls:
+#	MPI_Allgather
+#	MPI_Allreduce
+#	MPI_Barrier
+#	MPI_Bcast
+#	MPI_Reduce
+#	MPI_Gather
+#Message sizes:
+#	800
+#@operation=MPI_BOR
+#@datatype=MPI_BYTE
+#@datatype_extent_bytes=1
+#@datatype_size_bytes=1
+#@root_proc=0
+#@reproMPIcommitSHA1=cd615430185b38692c0761f2888279724e5012ed
+#@nprocs=29
+#@clock=MPI_Wtime
+#@clock_tick=0.0000000010
+#@clocksync=None
+#@procsync=MPI_Barrier
+#@runtime_type=local
+#@nrep=1000
+                                              test        count total_nrep valid_nrep       mean_sec        min_sec        max_sec 
+                                     MPI_Allgather          800       1000       1000   0.0004467703   0.0002984900   0.0319280020 
+                                     MPI_Allreduce          800       1000       1000   0.0002451383   0.0001412510   0.0008485560 
+                                       MPI_Barrier          800       1000       1000   0.0003017955   0.0002208080   0.0018037150 
+                                         MPI_Bcast          800       1000       1000   0.0002118641   0.0001259780   0.0013981080 
+                                        MPI_Reduce          800       1000       1000   0.0001439149   0.0000655190   0.0034705700 
+                                        MPI_Gather          800       1000       1000   0.0001728975   0.0000946880   0.0009977640 
+# Benchmark started at Sat May 25 17:01:52 2024
+# Execution time: 3s
