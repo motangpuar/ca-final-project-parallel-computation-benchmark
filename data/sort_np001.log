@@ -1,0 +1,3 @@
+time spent omp: 0.102338
+time spent qsort: 0.0149941
+time spent radix: 0.0663979
